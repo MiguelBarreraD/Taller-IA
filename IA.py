@@ -14,7 +14,7 @@ Answer: Let's think step by step."""
 prompt = PromptTemplate(template=template, input_variables=["question"])
 
 llm = OpenAI()
-
+    
 llm_chain = LLMChain(prompt=prompt, llm=llm)
 
 question = "What is at the core of Popper's theory of science?"
