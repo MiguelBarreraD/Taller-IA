@@ -1,6 +1,6 @@
 # Taller-IA
 
-## Itroducción
+## Introducción
 
 Este taller explora cómo utilizar LangChain, Pinecone y OpenAI para enviar solicitudes a ChatGPT y obtener respuestas. LangChain es una biblioteca que proporciona una abstracción sobre la integración con modelos de lenguaje, lo que facilita el envío de solicitudes y la obtención de respuestas. Pinecone es un servicio de almacenamiento de vectores que se puede utilizar para construir sistemas de recuperación de respuestas. OpenAI es una empresa de inteligencia artificial que proporciona modelos de lenguaje avanzados, como ChatGPT.
 
@@ -76,13 +76,7 @@ Puede instalar las dependencias necesarias ejecutando el siguiente comando:
 ```python
     print(response)
 ```
-### Prueba
 
-#### Entrada
-
- **¿What is at the core of Popper's theory of science?**
-
-#### Salida
 
 ## Creación de un sistema de recuperación de respuestas con almacenamiento de vectores en memoria (RAG):
 
@@ -145,13 +139,7 @@ Puede instalar las dependencias necesarias ejecutando el siguiente comando:
     print(response)
 ```
 
-### Prueba
 
-#### Entrada
-
-**¿What is Task Decomposition?**
-
-#### Salida
 
 ## Creación de un sistema de recuperación de respuestas (RAG) utilizando Pinecone:
 
@@ -232,11 +220,4 @@ Finalmente, llamamos a las funciones para ejecutar el proceso de carga de texto 
     loadText()
     search()
 ```
-
-
-### Prueba
-
-#### Entrada
-**¿What is the principal idea text?**
-#### Salida
 
